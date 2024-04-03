@@ -31,6 +31,8 @@ Youth Table
 
 
 **YouthProgram** table
+| Column Name | Type | Description |
+| --- | --- | --- |
 | youthId | bigint | id of youth in youth program |
 | memberSince | datetime | when youth became a member |
 | name | nvarchar(100) | referencing youth name |
@@ -38,6 +40,8 @@ Youth Table
 | SummerCamp | bit | are they participating in this years summer camp |
 
 **SummerCamp** table
+| Column Name | Type | Description |
+| --- | --- | --- |
 | youthId | bigint | id of youth in youth program |
 | YouthTeam | Array | what teams are the in |
 | Year | int | what year are they participating in | 
